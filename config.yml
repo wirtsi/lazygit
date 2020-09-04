@@ -1,0 +1,22 @@
+startuppopupversion: 1
+gui:
+  theme:
+    lightTheme: false # For terminals with a light background
+    selectedLineBgColor:
+      - reverse
+    selectedRangeBgColor:
+      - reverse
+git:
+  commitPrefixes:
+    api: # This is repository folder name
+      pattern: "^\\w+\\/(\\w+-\\w+)"
+      replace: "$1 - "
+    frontend: # This is repository folder name
+      pattern: "^\\w+\\/(\\w+-\\w+)"
+      replace: "$1 - "
+    commercetools: # This is repository folder name
+      pattern: "^\\w+\\/(\\w+-\\w+)"
+      replace: "$1 - "
+    terraform: # This is repository folder name
+      pattern: "^\\w+\\/(\\w+-\\w+)"
+      replace: "$1 - "
