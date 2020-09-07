@@ -20,3 +20,5 @@ git:
     terraform: # This is repository folder name
       pattern: "^\\w+\\/(\\w+-\\w+)"
       replace: "$1 - "
+os:
+  openCommand: "nvr -cc split --remote-wait +'set bufhidden=wipe' {{filename}}"
